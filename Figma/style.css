@@ -1,0 +1,42 @@
+
+.float-left {
+
+  float: left;
+  width: 50%;
+}
+
+.float-img {
+
+width: 33%;
+float: left;
+padding-left: 20px;
+}
+
+
+
+.content1 {
+
+
+padding-right: 150px;
+padding-left:  100px;
+margin-left: 50px;
+margin-right: 140px;
+margin-top: 80px;
+
+}
+
+.content2 {
+
+margin-top: 50px;
+margin-bottom: 40px;   
+  
+}
+
+@media (max-width: 800px) {
+  .float-left, .float-img {
+    flex: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
